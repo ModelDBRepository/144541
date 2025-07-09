@@ -11,20 +11,13 @@ The hoc file "fig-5a" is a typical simulation file, for illustration purposes on
 
 It tests the peak somatic membrane potential as a function of synaptic stimulation strength using I_lk with lk = 0.7 (i.e. 70% of the peak Ih conductance) under control conditions (red) and no Ih (blue).  Ih increases the peak depolarization for weak inputs and reduces it for stronger inputs.
 
-Under unix systems: 
-to compile the mod files use the command  
-`nrnivmodl`  
-and run the simulation hoc file with the command  
-`nrniv fig-5a.hoc`
+Under unix systems:  
+to compile the mod files use the command `nrnivmodl` and run the simulation hoc file with the command `nrniv fig-5a.hoc`
 
 Under Windows systems:  
-to compile the mod files use the "mknrndll" command.  
-A double click on the simulation file  
-fig-5a.hoc  
-will open the simulation window.
+to compile the mod files use the "mknrndll" command. A double click on the simulation file fig-5a.hoc will open the simulation window.
 
-Questions on how to use this model should be directed to  
-michele.migliore@cnr.it  
+Questions on how to use this model should be directed to michele.migliore@cnr.it  
 
 ---
 
